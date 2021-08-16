@@ -18,3 +18,11 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+
+//announcement
+Route::get('announcements','AnnouncementController@display')->name('announcements');
+Route::post('/createannouncement','AnnouncementController@store')->name('createannouncement');
+Route::get('/editannouncement/{id}','AnnouncementController@edit')->name('editsannouncement');
+Route::put('/updateannouncement/{id}','AnnouncementController@update')->name('updateannouncement');
+Route::get('/deleteannouncement/{id}','AnnouncementController@delete')->name('deleteannouncement');

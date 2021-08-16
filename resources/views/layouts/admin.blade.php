@@ -20,6 +20,8 @@
   <link rel="stylesheet" href="{{ asset('css/vertical-layout-light/style.css')}}">
   <!-- endinject -->
   <link rel="shortcut icon" href="images/logoThimphu.png" />
+  <script src="https://cdn.ckeditor.com/4.16.2/standard/ckeditor.js"></script>
+  
 </head>
 <body>
   <div class="container-scroller">
@@ -236,9 +238,9 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{ url('/announcement') }}">
+            <a class="nav-link" href="{{ url('/announcements') }}">
               <i class="icon-grid menu-icon"></i>
-              <span class="menu-title">Announcement</span>
+              <span class="menu-title">Announcements</span>
             </a>
           </li>
           <li class="nav-item">
@@ -270,3 +272,4 @@
 </body>
 
 </html>
+
