@@ -26,3 +26,9 @@ Route::post('/createannouncement','AnnouncementController@store')->name('createa
 Route::get('/editannouncement/{id}','AnnouncementController@edit')->name('editsannouncement');
 Route::put('/updateannouncement/{id}','AnnouncementController@update')->name('updateannouncement');
 Route::get('/deleteannouncement/{id}','AnnouncementController@delete')->name('deleteannouncement');
+
+
+//announcement
+Route::get('boardMember','BoardController@index')->name('boardMember');
+Route::post('/saveBoardMember','BoardController@saveBoardMember')->name('saveBoardMember');
+Route::get('/deleteDetails/{id}','BoardController@deleteDetails')->name('deleteDetails');

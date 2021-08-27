@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="{{ asset('vendors/feather/feather.css')}}">
   <link rel="stylesheet" href="{{ asset('vendors/ti-icons/css/themify-icons.css')}}">
   <link rel="stylesheet" href="{{ asset('vendors/css/vendor.bundle.base.css')}}">
+  <!-- <link rel="stylesheet" href="{{ asset('vendors/bootstrap-datepicker/bootstrap-datepicker.min.js')}}">
+  <link rel="stylesheet" href="{{ asset('vendors/bootstrap-datepicker/bootstrap-datepicker.min.css')}}"> -->
   <!-- endinject -->
   <!-- Plugin css for this page -->
   <link rel="stylesheet" href="{{ asset('vendors/datatables.net-bs4/dataTables.bootstrap4.css')}}">
@@ -214,7 +216,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{ url('/bod') }}">
+            <a class="nav-link" href="{{ url('/boardMember') }}">
               <i class="icon-bar-graph menu-icon"></i>
               <span class="menu-title">Board of Director</span>
             </a>
